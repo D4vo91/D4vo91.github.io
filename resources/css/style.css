@@ -15,6 +15,11 @@ header {
     background-color: #F2F4F3;
 }
 
+body {
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
 .logo {
     padding: 1rem 2rem;
     margin-right: auto;
@@ -82,10 +87,33 @@ h1 {
 }
 
 h2 {
-
+    margin: auto;
+    padding-top: 2rem;
+    font-size: 24px;
+    font-weight: 900;
+    border-bottom: 2px solid #C33505;
 }
 
-body {
-    text-align: center;
-    font-family: 'Ubuntu', sans-serif;
+.aboutme {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
 }
+
+.aboutme img {
+    max-width: 200px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+p {
+    text-align: left;
+    line-height: 1.5rem;
+}
+
+footer {
+    background-color: #c33505;
+}
+
+
