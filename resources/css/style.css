@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,700;1,300&display=swap');
+/*
+font-family: 'Permanent Marker', cursive;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Ubuntu Mono', monospace;
+*/
+
+header {
+    border-bottom: 2px solid #1B1513;
+    display: flex;
+    justify-content: flex-end;
+    z-index: 100;
+    font-size: 24px;
+    height: 4rem;
+}
+
+.logo {
+    padding: 1rem 2rem;
+    margin-right: auto;
+    font-family: 'Permanent Marker', cursive;
+    cursor: pointer;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+li {
+    display: inline;
+    list-style-type: none;
+}
+
+li a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+
+li a,
+li a:visited {
+    text-decoration: none;
+}
+
+li a:hover,
+li a:focus {
+    cursor: pointer;
+    color: #c33505;
+    transition: all 0.3s ease 0s;
+    background: #1B1513; /*Licorice*/
+}
+
+.banner {
+    background-image: url("../images/andrea-de-santis-EMvUZHjbxtI-unsplash.jpg");
+    height: 450px;
+    background-size: contain;
+    background-repeat: repeat-x;
+}
+
+h1 {
+    color: #F2F4F3;
+    font-size: 48px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+h2 {
+
+}
+
+body {
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
