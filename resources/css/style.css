@@ -12,6 +12,7 @@ header {
     z-index: 100;
     font-size: 24px;
     height: 4rem;
+    background-color: #F2F4F3;
 }
 
 .logo {
@@ -19,6 +20,14 @@ header {
     margin-right: auto;
     font-family: 'Permanent Marker', cursive;
     cursor: pointer;
+}
+.instaLogo {
+    height: 100%;
+    width: 100%;
+}
+
+a .instaLogo:hover {
+    filter: invert(90%);
 }
 
 ul {
@@ -54,7 +63,7 @@ li a:visited {
 li a:hover,
 li a:focus {
     cursor: pointer;
-    color: #c33505;
+    color: #F2F4F3;
     transition: all 0.3s ease 0s;
     background: #1B1513; /*Licorice*/
 }
